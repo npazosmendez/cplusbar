@@ -80,7 +80,9 @@ public:
 		bar[i++] = '[';
 		for(int j = 0; j < bar_lenght; j++) bar[i++] = remaining_symbol;
 		bar[i++] = ']';
-		bar[i++] = bar[i++] = bar[i++] = ' ';
+		bar[i++] = ' ';
+		bar[i++] = ' ';
+		bar[i++] = ' ';
 		bar[i++] = '0';
 		bar[i++] = '%';
 	}
